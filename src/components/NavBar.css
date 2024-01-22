@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 4rem; /* Adjust the height as needed */
+    background-color: Black; /* A deep blue shade for the background */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* A more pronounced shadow for depth */
+  }
+  
+  .navbar h1 {
+    font-size: 1.75rem; /* Adjust the size as needed */
+    color: white; /* A bright color for your brand (e.g., a shade of red) */
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar li {
+    padding: 0 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar li:hover {
+    color: #2196F3; /* The same bright color for hover state */
+  }
+  
+  /* Responsive Nav Toggle */
+  .nav-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-toggle {
+      display: block;
+    }
+  
+    .navbar ul {
+      display: none; /* Hide the navbar in mobile view */
+    }
+  
+    .navbar.active ul {
+      display: flex; /* Show the navbar when active */
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #1A1A2E; /* Match the navbar color */
+      position: absolute;
+      top: 4rem; /* Height of the navbar */
+      left: 0;
+      right: 0;
+    }
+  
+    .navbar.active li {
+      padding: 1rem 0; /* More vertical padding for touch targets */
+    }
+  }
+  

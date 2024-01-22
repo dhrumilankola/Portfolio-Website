@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/dhrumilankola.github.io/static/css/main.3464162f.css",
+    "main.js": "/dhrumilankola.github.io/static/js/main.a2e689e7.js",
+    "static/media/stockbot-1.png": "/dhrumilankola.github.io/static/media/stockbot-1.4adad91159aef03a6c48.png",
+    "static/media/photodo-1.png": "/dhrumilankola.github.io/static/media/photodo-1.f7e0376ab92fe6c059a3.png",
+    "static/media/photodo-2.png": "/dhrumilankola.github.io/static/media/photodo-2.9fd997e1aae366b13a35.png",
+    "static/media/stories-1.png": "/dhrumilankola.github.io/static/media/stories-1.bc051d30ca6a15c14fc0.png",
+    "static/media/ecom-1.png": "/dhrumilankola.github.io/static/media/ecom-1.32e12cbb82bdfb98afe0.png",
+    "static/media/data-1.png": "/dhrumilankola.github.io/static/media/data-1.84e726d0098368d148b7.png",
+    "static/media/heroImage.png": "/dhrumilankola.github.io/static/media/heroImage.eb76ae500c1e94035741.png",
+    "static/media/hadoop.png": "/dhrumilankola.github.io/static/media/hadoop.f543d6381bb991213c86.png",
+    "static/media/aws.png": "/dhrumilankola.github.io/static/media/aws.da7730ef91a7d32866b7.png",
+    "static/media/c++.png": "/dhrumilankola.github.io/static/media/c++.053a898d752aef72651e.png",
+    "static/media/tableau.png": "/dhrumilankola.github.io/static/media/tableau.cee2202935ee0c9331bf.png",
+    "static/media/react.png": "/dhrumilankola.github.io/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/github.png": "/dhrumilankola.github.io/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/python.png": "/dhrumilankola.github.io/static/media/python.448fb2a83595fa5c5c8a.png",
+    "static/media/html.png": "/dhrumilankola.github.io/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/powerbi.png": "/dhrumilankola.github.io/static/media/powerbi.20d2d83bc19db86351f5.png",
+    "static/media/tailwind.png": "/dhrumilankola.github.io/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/dhrumilankola.github.io/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/dhrumilankola.github.io/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/mysql.png": "/dhrumilankola.github.io/static/media/mysql.8ca52c25afffafaa83f1.png",
+    "index.html": "/dhrumilankola.github.io/index.html",
+    "main.3464162f.css.map": "/dhrumilankola.github.io/static/css/main.3464162f.css.map",
+    "main.a2e689e7.js.map": "/dhrumilankola.github.io/static/js/main.a2e689e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3464162f.css",
+    "static/js/main.a2e689e7.js"
+  ]
+}

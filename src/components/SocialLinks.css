@@ -1,0 +1,56 @@
+.social-links-container {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.social-link {
+    background-color: #333;
+    color: #fff;
+    width: 40px; /* Icon container size */
+    height: 40px;
+    margin: 0.5rem 0;
+    border-radius: 0 50% 50% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.3s ease, background-color 0.3s ease;
+    overflow: hidden; /* Hide text initially */
+}
+
+.social-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+}
+
+.social-link svg {
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+    width: 160px; /* Extend link on hover */
+    background-color: #0F3D3E; /* Accent color */
+}
+
+.social-link:hover svg {
+    transform: translateX(-10px); /* Move icon to the left */
+}
+
+.social-text {
+    display: none;
+    white-space: nowrap;
+    margin-left: 10px; /* Space between icon and text */
+    color: #fff;
+}
+
+.social-link:hover .social-text {
+    display: inline-block; /* Show text on hover */
+}
