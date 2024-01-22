@@ -84,7 +84,7 @@ const Portfolio = () => {
 
 
   return (
-    <div name="portfolio" className="projects w-full bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white py-20">
+    <div name="projects" className="projects w-full bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white py-20">
       <div className="projectContainer mt-20">
         <h2 className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline text-[#E2DCC8]">
           My Projects
